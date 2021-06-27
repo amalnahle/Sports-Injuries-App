@@ -23,7 +23,7 @@ import openpyxl
 #df = pd.read_excel(r'C:\Users\USER\OneDrive - American University of Beirut\Desktop\Healthcare Project\Sports Injuries\Sports Injuries1.xlsx', sheet_name=None, header=0, squeeze= True)
 url2 = 'https://drive.google.com/file/d/1vJlVWXMtlKAq9PafnRDrW_EIgMuRmmXh/view?usp=sharing'
 path2 = 'https://drive.google.com/uc?export=download&id='+url2.split('/')[-2]
-df = pd.read_excel(path2, sheet_name=None, header=0, squeeze= True, engine='openpyxl)
+df = pd.read_excel(path2, sheet_name=None, header=0, squeeze= True, engine='openpyxl')
 
 #@st.cache
 #def load_data(path):
